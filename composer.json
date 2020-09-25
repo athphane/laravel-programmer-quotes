@@ -1,0 +1,25 @@
+{
+    "name": "athphane/programmer-quotes",
+    "description": "Programmer quotes as a packages",
+    "authors": [
+        {
+            "name": "Athfan Khaleel",
+            "email": "athphane@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^8.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Athphane\\ProgrammerQuotes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "Athphane\\ProgrammerQuotes\\ProgrammerQuotesServiceProvider"
+            ]
+        }
+    }
+}
